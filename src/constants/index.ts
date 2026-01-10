@@ -273,3 +273,65 @@ export const classesData = [
   },
 ];
 
+export const notesData = [
+  {
+    id: 1,
+    category: "Mathematics",
+    title: "Mathematics",
+    description:
+      "Calculus is the study of change and motion. Understand derivatives to analyze rates and integrals to compute areas under curves.",
+    visibility: "Public",
+    author: "StudyStakes",
+    date: "2025-12-20",
+  },
+  {
+    id: 2,
+    category: "Physics",
+    title: "Physics",
+    description:
+      "Newton's Laws explain motion: inertia, F=ma, and action-reaction pairs form the foundation of classical mechanics.",
+    visibility: "Public",
+    author: "StudyStakes",
+    date: "2025-12-20",
+  },
+  {
+    id: 3,
+    category: "Chemistry",
+    title: "Chemistry",
+    description:
+      "The periodic table organizes elements by atomic number and properties, allowing predictions of chemical behavior and bonding.",
+    visibility: "Public",
+    author: "StudyStakes",
+    date: "2025-12-20",
+  },
+  {
+    id: 4,
+    category: "Biology",
+    title: "Biology",
+    description:
+      "Cell theory states all living things are made of cells, which are the basic unit of life, capable of metabolism and reproduction.",
+    visibility: "Public",
+    author: "StudyStakes",
+    date: "2025-12-20",
+  },
+  {
+    id: 5,
+    category: "History",
+    title: "History",
+    description:
+      "The Renaissance marked a rebirth of arts and science in Europe, fostering humanism and leading to modern thinking.",
+    visibility: "Public",
+    author: "StudyStakes",
+    date: "2025-12-20",
+  },
+  {
+    id: 6,
+    category: "Computer Science",
+    title: "Computer Science",
+    description:
+      "Algorithms are step-by-step instructions for solving problems efficiently; understanding complexity is key to performance.",
+    visibility: "Public",
+    author: "StudyStakes",
+    date: "2025-12-20",
+  },
+];
