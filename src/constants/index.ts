@@ -1,3 +1,4 @@
+import { Swords, Timer, Trophy, Zap } from "lucide-react";
 
 export const studentImages = [
   {
@@ -333,5 +334,98 @@ export const notesData = [
     visibility: "Public",
     author: "StudyStakes",
     date: "2025-12-20",
+  },
+];
+export const analyticsStatData = [
+  {
+    id: 1,
+    key: "study_wager",
+    title: "Study Wager",
+    value: 0,
+    unit: "m",
+    status: "Tracked",
+    statusColor: "green",
+    bgColor: "bg-green-100", // Tailwind color
+  },
+  {
+    id: 2,
+    key: "live_tutoring",
+    title: "Live Tutoring",
+    value: 0,
+    unit: "m",
+    status: "Tracked",
+    statusColor: "blue",
+    bgColor: "bg-blue-100",
+  },
+  {
+    id: 3,
+    key: "smart_notes",
+    title: "Smart Notes",
+    value: 0,
+    unit: "m",
+    status: "Tracked",
+    statusColor: "green",
+    bgColor: "bg-green-200",
+  },
+  {
+    id: 5,
+    key: "all_time",
+    title: "Pro smart notes",
+    value: 0,
+    unit: "m",
+    status: "Sum Of All",
+    statusColor: "gray",
+    bgColor: "bg-gray-100",
+  },
+  {
+    id: 6,
+    key: "all_time",
+    title: "English Trivea",
+    value: 0,
+    unit: "m",
+    status: "Sum Of All",
+    statusColor: "gray",
+    bgColor: "bg-gray-200",
+  },
+  {
+    id: 7,
+    key: "all_time",
+    title: "Brainlab Arena",
+    value: 0,
+    unit: "m",
+    status: "Sum Of All",
+    statusColor: "gray",
+    bgColor: "bg-gray-300",
+  },
+];
+
+export const warfareFeatures = [
+  {
+    id: 1,
+    title: "Competitive Edge",
+    description:
+      "Transform boring study sessions into thrilling mental battles with your friends.",
+    icon: Swords,
+  },
+  {
+    id: 2,
+    title: "Real-time Tracking",
+    description:
+      "Automatic timer starts when both participants are ready. Stay focused or lose.",
+    icon: Timer,
+  },
+  {
+    id: 3,
+    title: "Bragging Rights",
+    description:
+      "Win victories, earn rewards, and prove your mental superiority.",
+    icon: Trophy,
+  },
+  {
+    id: 4,
+    title: "Peak Focus",
+    description:
+      "When stakes are high, your brain won't dare slack off. Pure concentration.",
+    icon: Zap,
   },
 ];
