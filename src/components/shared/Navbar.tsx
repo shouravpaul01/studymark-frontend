@@ -22,7 +22,7 @@ const navLinks = [
   { name: "Live Tutoring", href: "/live-tutoring" },
   { name: "Smart Notes", href: "/smart-notes" },
   { name: "Analytics", href: "/analytics" },
-  { name: "Mental Warfare", href: "/mental-warfare" },
+  { name: "Mental Warfares", href: "/mental-warfares" },
   { name: "About", href: "/about" },
 ];
 

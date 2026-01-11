@@ -1,4 +1,4 @@
-import { Swords, Timer, Trophy, Zap } from "lucide-react";
+import { Swords, Timer, Trophy, Users, Zap } from "lucide-react";
 
 export const studentImages = [
   {
@@ -427,5 +427,21 @@ export const warfareFeatures = [
     description:
       "When stakes are high, your brain won't dare slack off. Pure concentration.",
     icon: Zap,
+  },
+];
+export const focusWeaponFeatures = [
+  {
+    icon: Users,
+    title: "Challenge Friends",
+    description: "Invite anyone to battle",
+    color: "bg-blue-600/20",
+    iconColor: "text-blue-400",
+  },
+  {
+    icon: Trophy,
+    title: "Win Rewards",
+    description: "Set optional wagers",
+    color: "bg-yellow-600/20",
+    iconColor: "text-yellow-400",
   },
 ];
