@@ -395,7 +395,7 @@ export const analyticsStatData = [
     unit: "m",
     status: "Sum Of All",
     statusColor: "gray",
-    bgColor: "bg-gray-300",
+    bgColor: "bg-pink-300/20",
   },
 ];
 
