@@ -1,4 +1,4 @@
-import { Swords, Timer, Trophy, Users, Zap } from "lucide-react";
+import { ChartColumn, FileText, Swords, Timer, Trophy, Users, Zap } from "lucide-react";
 
 export const studentImages = [
   {
@@ -445,3 +445,71 @@ export const focusWeaponFeatures = [
     iconColor: "text-yellow-400",
   },
 ];
+
+export const aboutFeatures = [
+  {
+    icon: FileText,
+    title: "Smart Notes",
+    description:
+      "Easily create, search, and manage your notes with advanced filters. Stay organized and efficient with AI-powered organization.",
+  },
+  {
+    icon: ChartColumn,
+    title: "Progress Analytics",
+    description:
+      "Track your learning progress in real time and identify areas for improvement with visual insights and detailed reports.",
+  },
+  {
+    icon: Users,
+    title: "Live Tutoring",
+    description:
+      "Connect with professional tutors anytime and get personalized support for your toughest subjects, 24/7.",
+  },
+];
+export const provideFeatures = [
+  {
+    value: "50K",
+    label: "Students",
+  },
+  {
+    value: "1M",
+    label: "Notes Created",
+  },
+  {
+    value: "98",
+    label: "Success Rate",
+  },
+  {
+    value: "24/7",
+    label: "Support",
+  },
+];
+
+export const chooseData = [
+  {
+    label: "Intuitive and easy-to-use platform",
+  },
+  {
+    label: "Real-time study tracking and progress visualization",
+  },
+  {
+    label: "Host or join competitive study sessions",
+  },
+  {
+    label: "Built-in motivation through friendly challenges",
+  },
+  {
+    label: "A global community of learners",
+  },
+];
+export const tags = [
+  {
+    label: "english",
+  },
+   {
+    label: "physics",
+  }, {
+    label: "mechanics",
+  },
+];
+
