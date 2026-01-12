@@ -513,3 +513,16 @@ export const tags = [
   },
 ];
 
+export const subscriptionFeatures = [
+  {
+    label: "Unlimited AI summaries",
+  },
+   {
+    label: "Flashcard exports",
+  }, {
+    label: "Offline downloads",
+  },
+  {
+    label: "Shared notes access",
+  },
+];
